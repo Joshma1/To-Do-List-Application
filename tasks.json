@@ -1,22 +1,9 @@
-{
-	"version": "2.0.0",
-	"tasks": [
-		{
-			"type": "npm",
-			"script": "build",
-			"path": "my-app",
-			"group": "build",
-			"problemMatcher": [],
-			"label": "npm: build - my-app",
-			"detail": "next build"
-		},
-		{
-			"type": "npm",
-			"script": "start",
-			"path": "backend",
-			"problemMatcher": [],
-			"label": "npm: start - backend",
-			"detail": "node app.js"
-		}
-	]
-}
+[
+    { "id": 1, "title": "Task 1", "description": "Description 1" },
+    { "id": 2, "title": "Task 2", "description": "Description 2" },
+    { "id": 3, "title": "Task 3", "description": "Description 3" },
+    { "id": 4, "title": "Task 4", "description": "Description 4" },
+    { "id": 5, "title": "Task 5", "description": "Description 5" },
+    { "id": 6, "title": "Task 6", "description": "Description 6" }
+  ]
+  
