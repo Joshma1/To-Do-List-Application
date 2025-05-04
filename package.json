@@ -1,0 +1,18 @@
+{
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    },
+    "dependencies": {
+        "@tailwindcss/forms": "^0.5.10",
+        "@tailwindcss/typography": "^0.5.16",
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "pg": "^8.15.6",
+        "pg-hstore": "^2.3.4",
+        "sequelize": "^6.37.7"
+    }
+}
